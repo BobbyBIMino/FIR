@@ -1,0 +1,22 @@
+﻿生成启动时间为 2016/1/5 13:59:54。
+     1>项目“E:\Learning\数字信号\FIR\FIR\FIR.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Software\VStudio2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\FIR.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt FIR.cpp
+         FIR.cpp
+     1>e:\learning\数字信号\fir\fir\fir.cpp(18): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\learning\数字信号\fir\fir\fir.cpp(165): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\learning\数字信号\fir\fir\fir.cpp(167): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\learning\数字信号\fir\fir\fir.cpp(169): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\learning\数字信号\fir\fir\fir.cpp(170): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\learning\数字信号\fir\fir\fir.cpp(175): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\learning\数字信号\fir\fir\fir.cpp(176): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\learning\数字信号\fir\fir\fir.cpp(184): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         E:\Software\VStudio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Learning\数字信号\FIR\Debug\FIR.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Learning\数字信号\FIR\Debug\FIR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Learning\数字信号\FIR\Debug\FIR.lib" /MACHINE:X86 Debug\FIR.obj
+         Debug\stdafx.obj
+         FIR.vcxproj -> E:\Learning\数字信号\FIR\Debug\FIR.exe
+     1>已完成生成项目“E:\Learning\数字信号\FIR\FIR\FIR.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:02:20.13
